@@ -26,7 +26,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.card {
+.card1 {
   width: 200px;
   height: 200px;
   background-color: white;
@@ -44,3 +44,42 @@
     opacity: 1;
     transform: translateY(0);
   }
+  .card2 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: var(--delay);
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .card3 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: var(--delay);
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  br {
+  font-famyly: sans-serif;
+  color: #7F4344;
