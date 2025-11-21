@@ -7,10 +7,10 @@
 }
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px #03a9f4;
+  -webkit-text-stroke: 2px #7F4344;
 }
 .content h2:nth-child(2) {
-  color: #03a9f4;
+  color: #7F4344;
   animation: animate 5s ease-in-out infinite;
 }
 @keyframes animate {
@@ -20,4 +20,4 @@
   50% {
     clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 40%, 100% 100%, 0% 100%)
   }
-}
+
