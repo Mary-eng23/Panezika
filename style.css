@@ -48,7 +48,7 @@
    br {
   font-famyly: sans-serif;
   color: #7F4344;
-  
+}
   .card2 {
   width: 200px;
   height: 200px;
@@ -71,7 +71,7 @@
    br {
   font-famyly: sans-serif;
   color: #7F4344;
-  
+}
   .card3 {
   width: 200px;
   height: 200px;
@@ -93,3 +93,9 @@
   br {
   font-famyly: sans-serif;
   color: #7F4344;
+}
+  
+  .zagolovoknach {
+  font-famyly: sans-serif;
+  color: #7F4344;
+  }
