@@ -46,7 +46,7 @@
   }
 
    br {
-  font-famyly: sans-serif;
+  font-family: sans-serif;
   color: #7F4344;
 }
   .card2 {
@@ -90,12 +90,24 @@
     opacity: 1;
     transform: translateY(0);
   }
-  br {
+  .card {
   font-famyly: sans-serif;
   color: #7F4344;
 }
   
   .zagolovoknach {
-  font-famyly: sans-serif;
+  font-family: sans-serif;
   color: #7F4344;
   }
+header {
+background-color: #FCF9E3;
+}
+
+main {
+background-color: white;
+  font-family: Playfair Display;
+}
+
+p {
+text-align: left;
+}
