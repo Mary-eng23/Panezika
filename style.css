@@ -1,50 +1,9 @@
 @@ -0,0 +1,44 @@
-.content { position: relative; }
-.content h2 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  font-size: 5em;
-}
-.content h2:nth-child(1) {
-  color: transparent;
-  -webkit-text-stroke: 2px #7F4344;
-}
-.content h2:nth-child(2) {
-  color: #7F4344;
-  animation: animate 5s ease-in-out infinite;
-}
-@keyframes animate {
-  0%, 100% {
-    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%)
-  }
-  50% {
-    clip-path: polygon(0 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 40%, 100% 100%, 0% 100%)
-  }
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 .card1 {
   width: 200px;
   height: 200px;
   background-color: white;
-  margin: 10px;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: var(--delay);
-  opacity: 0;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
    br {
   font-family: sans-serif;
   color: #7F4344;
@@ -53,21 +12,7 @@
   width: 200px;
   height: 200px;
   background-color: white;
-  margin: 10px;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: var(--delay);
-  opacity: 0;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
    br {
   font-famyly: sans-serif;
   color: #7F4344;
@@ -76,19 +21,6 @@
   width: 200px;
   height: 200px;
   background-color: white;
-  margin: 10px;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: var(--delay);
-  opacity: 0;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
   .card {
   font-famyly: sans-serif;
