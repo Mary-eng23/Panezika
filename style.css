@@ -1,27 +1,4 @@
 @@ -0,0 +1,44 @@
-.card1 {
-  width: 200px;
-  height: 200px;
-  background-color: white;
-}
-   br {
-  font-family: sans-serif;
-  color: #7F4344;
-}
-  .card2 {
-  width: 200px;
-  height: 200px;
-  background-color: white;
-}
-   br {
-  font-famyly: sans-serif;
-  color: #7F4344;
-}
-  .card3 {
-  width: 200px;
-  height: 200px;
-  background-color: white;
-  }
   .card {
   font-famyly: sans-serif;
   color: #7F4344;
@@ -88,7 +65,7 @@ text-align: left;
 }
 
 .photo {
-border-radius: 50%;
+border-radius: 50px;
 }
 
 footer {
