@@ -101,15 +101,50 @@
   }
 header {
 background-color: #FCF9E3;
+  height: 198px;
 }
 
 header h1 {
 font-family: Castoro Titling;
   color: #7F4344;
   text-align: center;
+  margin-left: 439px;
+  margin-top: 43px;
+  margin-bottom: 1416.18px;
+  margin-right: 439.35px;
 }
 
+header p {
+width: 208px;
+  height: 40px;
+}
 
+.p1 {
+font-family: Playfair Display;
+  color: #7F4344;
+  margin-left: 82px;
+  margin-top: 127px;
+  margin-bottom: 1382px;
+  margin-right: 833.98px; 
+}
+
+.p2 {
+font-family: Playfair Display;
+  color: #7F4344;
+  margin-left: 468px;
+  margin-top: 126px;
+  margin-bottom: 1382px;
+  margin-right: 468px; 
+}
+
+.p3 {
+font-family: Playfair Display;
+  color: #7F4344;
+  margin-left: 798px;
+  margin-top: 127px;
+  margin-bottom: 1382px;
+  margin-right: 80.98px; 
+}
 
 main {
 background-color: white;
