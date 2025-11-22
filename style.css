@@ -158,3 +158,8 @@ text-align: left;
 .photo {
 border-radius: 50%;
 }
+
+footer {
+background-color: #FCF9E3;
+  font-family: Playfair Display;
+}
