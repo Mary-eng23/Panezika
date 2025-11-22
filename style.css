@@ -30,17 +30,20 @@ width: 208px;
 
 .p1 {
 font-family: Playfair Display;
-  color: #7F4344; 
+  color: #7F4344;
+  text-align: left;
 }
 
 .p2 {
 font-family: Playfair Display;
   color: #7F4344; 
+  text-align: center;
 }
 
 .p3 {
 font-family: Playfair Display;
   color: #7F4344; 
+  text-align: right; 
 }
 
 main {
